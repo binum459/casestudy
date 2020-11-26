@@ -1,0 +1,93 @@
+
+/* index.html */
+.title{
+border: 4px solid rgba(247, 170, 4, 0.904);
+padding: 50px;
+background:linear-gradient(to right, #d4611f, hsl(44, 100%, 60%));
+text-align: center;
+margin: 15%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: beige;
+
+
+}
+
+
+/* main1.html - Login page */
+
+body {
+    
+    background-image: url("imgg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        
+  }
+  
+
+  .container{
+         background: linear-gradient(to right, #d4611f, hsl(44, 100%, 60%));
+         margin-top: 3%;
+      
+  }
+   .card-body{
+ 
+       
+        margin: 12%;
+        padding: 6%;
+        border: 1px  solid aliceblue;
+      
+       color: beige;
+   }
+
+   /* ************** */
+
+   /* main2.html json file */
+
+#demo{
+    
+  background: linear-gradient(to right, #d4611f, hsl(44, 100%, 60%));
+  font-family: cursive;
+  text-align: justify;
+  padding: 100px;
+  font-size: 25px;
+  color: beige;
+ }
+
+.trio{
+  float: left;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+border: 70px solid black;
+margin: 0px;
+
+}   
+
+header a
+{
+  padding-left: 1000px;
+  float: right;
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
+header a:hover{
+  color: rgb(231, 217, 12);
+  text-decoration: none;
+}
+
+#mycheck{
+  width: 50px;
+  height: 20px;
+  
+}
+
+
+   

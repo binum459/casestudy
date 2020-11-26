@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                
+                  <div class="card-body">
+                      
+                    <h2 class="card-title text-center">Gives you focus from Work to Play !!</h2>
+                    <br>
+                        <h3 class="card-title text-center">Sign in to know more</h3>
+                        <br>
+                    
+                    <form class="form-signin" onsubmit="return validation(disp)" action="main2.html" >
+                      <div class="form-label-group">
+                        <label >Username</label>
+                        <input  id="usn" class="form-control col-md-7" placeholder="Enter Username" required >
+                        <br>
+                        <span id="usnerr" class="text-danger font-weight-bold"></span>
+                      </div>
+                        <br>
+                        <br>
+                      <div class="form-label-group">
+                        <label ></label>Password</label>
+                        <input id="pwd" type="password"  class="form-control col-md-7" placeholder="Enter Password" required>
+                        <br>
+                        <span id="pwderr" class="text-danger font-weight-bold"></span>
+                      </div>
+                      <br>
+                      <br>
+                      <br>
+                      <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                      
+                        </form>
+
+                        
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script src="script.js"></script>
+        
+
+   
+</body>
+</html>
